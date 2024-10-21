@@ -1,0 +1,32 @@
+.header {
+  background-color: #2B2D2D;
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+
+  &__side {
+    display: flex;
+    gap: var(--spacing-05);
+    align-items: center;
+  }
+
+  &__logo {
+    text-decoration: none;
+    color: #FEFEFE;
+    font-size: 24px;
+    font-weight: 700;
+
+    span {
+      color: var(--primary-color);
+    }
+  }
+
+  .navigation {
+    display: flex;
+    gap: var(--spacing-04);
+
+    &__link {
+      color: white;
+    }
+  }
+}
